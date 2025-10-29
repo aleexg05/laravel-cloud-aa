@@ -7,7 +7,7 @@
 
 
 <body>
-    <h1>Llista  estudiants</h1>
+    <h1>Llista d' estudiants</h1>
     <div class="row">
   
     <style>
