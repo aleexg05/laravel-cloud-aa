@@ -6,6 +6,7 @@ use App\Http\Controllers\HomeController;
 
 
 Route::get('/', [StudentController::class,'index'])->name('index');
+Route::get('/index', [StudentController::class,'index'])->name('index');
 Route::get('/create', [StudentController::class,'create'])->name('create');
 Route::get('/store', [StudentController::class, 'store'])->name('store');
 Route::get('/edit/{id}', [StudentController::class,'edit'])->name('edit');
